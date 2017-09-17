@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException; 
 
-public class LoginDao {
+public class LoginDao { 
 	public static boolean validate(String name, String pass) {		
 		boolean status = false;
 		Connection conn = null;
